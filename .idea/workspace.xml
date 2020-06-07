@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52398a4e-2f18-4e14-9697-fac571edf906" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AssumptionsDemoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AssumptionsDemoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ConditionalDemoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ConditionalDemoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestStack.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,60 +45,62 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestStack">
-    <configuration name="AssumptionsDemoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ParametrizedTestDemoTest.testWithLocalMethod">
+    <configuration name="ParametrizedTestDemoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tdd" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AssumptionsDemoTest" />
+      <option name="MAIN_CLASS_NAME" value="ParametrizedTestDemoTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ParametrizedTestDemoTest.testWithEnumSource" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tdd" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CalculatorTest.additionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tdd" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
-      <option name="METHOD_NAME" value="additionTest" />
+      <option name="MAIN_CLASS_NAME" value="ParametrizedTestDemoTest" />
+      <option name="METHOD_NAME" value="testWithEnumSource(java.util.concurrent.TimeUnit)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConditionalDemoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ParametrizedTestDemoTest.testWithLocalMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tdd" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ConditionalDemoTest" />
+      <option name="MAIN_CLASS_NAME" value="ParametrizedTestDemoTest" />
+      <option name="METHOD_NAME" value="testWithLocalMethod(java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RepeatedTestDemoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RepeatedTestDemoTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestStack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RepeatedTestDemoTest.repeatedTest (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tdd" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestStack" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="RepeatedTestDemoTest" />
+      <option name="METHOD_NAME" value="repeatedTest(org.junit.jupiter.api.TestInfo,org.junit.jupiter.api.TestReporter,org.junit.jupiter.api.RepetitionInfo)" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestStack" />
-        <item itemvalue="JUnit.ConditionalDemoTest" />
-        <item itemvalue="JUnit.AssumptionsDemoTest" />
-        <item itemvalue="JUnit.CalculatorTest" />
-        <item itemvalue="JUnit.CalculatorTest.additionTest" />
+        <item itemvalue="JUnit.ParametrizedTestDemoTest.testWithLocalMethod" />
+        <item itemvalue="JUnit.ParametrizedTestDemoTest.testWithEnumSource" />
+        <item itemvalue="JUnit.ParametrizedTestDemoTest" />
+        <item itemvalue="JUnit.RepeatedTestDemoTest" />
+        <item itemvalue="JUnit.RepeatedTestDemoTest.repeatedTest (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -125,26 +126,34 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="566" y="272" width="403" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1591430971038" />
-    <state width="1493" height="181" key="GridCell.Tab.0.bottom" timestamp="1591436891870">
+    <state width="1493" height="181" key="GridCell.Tab.0.bottom" timestamp="1591516611903">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="181" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1591436891870" />
-    <state width="1493" height="181" key="GridCell.Tab.0.center" timestamp="1591436891870">
+    <state width="1493" height="181" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1591516611903" />
+    <state width="1493" height="181" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591437536753" />
+    <state width="1493" height="181" key="GridCell.Tab.0.center" timestamp="1591516611902">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="181" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1591436891870" />
-    <state width="1493" height="181" key="GridCell.Tab.0.left" timestamp="1591436891869">
+    <state width="1493" height="181" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1591516611902" />
+    <state width="1493" height="181" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591437536753" />
+    <state width="1493" height="181" key="GridCell.Tab.0.left" timestamp="1591516611902">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="181" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1591436891869" />
-    <state width="1493" height="181" key="GridCell.Tab.0.right" timestamp="1591436891870">
+    <state width="1493" height="181" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1591516611902" />
+    <state width="1493" height="181" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591437536753" />
+    <state width="1493" height="181" key="GridCell.Tab.0.right" timestamp="1591516611903">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="181" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1591436891870" />
+    <state width="1493" height="181" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1591516611903" />
+    <state width="1493" height="181" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591437536753" />
     <state x="277" y="55" key="SettingsEditor" timestamp="1591430703236">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="55" key="SettingsEditor/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1591430703236" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1591513532306">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1591513532306" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1591433447371">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
