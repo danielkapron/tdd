@@ -47,4 +47,12 @@ public class StringCalculatorTest {
         assertTrue(exception.getLocalizedMessage().contains("-2"));
         assertTrue(exception.getLocalizedMessage().contains("-3"));
     }
+
+
+    @Test
+    public void bigNumbersTest() throws Exception {
+        assertEquals(2, stringCalculator.add("2,1001"));
+    }
+
+
 }
