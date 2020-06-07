@@ -43,7 +43,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Calculator2Test">
+  <component name="RunManager" selected="JUnit.StringCalculatorTest">
     <configuration name="Calculator2Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tdd" />
       <option name="PACKAGE_NAME" value="" />
@@ -83,23 +83,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParametrizedTestDemoTest.testWithLocalMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tdd" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ParametrizedTestDemoTest" />
-      <option name="METHOD_NAME" value="testWithLocalMethod(java.lang.String)" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="StringCalculatorTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StringCalculatorTest" />
         <item itemvalue="JUnit.Calculator2Test" />
         <item itemvalue="JUnit.Calculator2Test.divisionTest" />
         <item itemvalue="JUnit.Calculator2Test.substractTest" />
         <item itemvalue="JUnit.Calculator2Test.additionTest" />
-        <item itemvalue="JUnit.ParametrizedTestDemoTest.testWithLocalMethod" />
       </list>
     </recent_temporary>
   </component>
@@ -129,25 +128,25 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="566" y="272" width="403" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1591430971038" />
-    <state width="1493" height="181" key="GridCell.Tab.0.bottom" timestamp="1591521695505">
+    <state width="1493" height="181" key="GridCell.Tab.0.bottom" timestamp="1591530101530">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="181" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1591521695505" />
+    <state width="1493" height="181" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1591530101530" />
     <state width="1493" height="181" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591437536753" />
-    <state width="1493" height="181" key="GridCell.Tab.0.center" timestamp="1591521695505">
+    <state width="1493" height="181" key="GridCell.Tab.0.center" timestamp="1591530101530">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="181" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1591521695505" />
+    <state width="1493" height="181" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1591530101530" />
     <state width="1493" height="181" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591437536753" />
-    <state width="1493" height="181" key="GridCell.Tab.0.left" timestamp="1591521695505">
+    <state width="1493" height="181" key="GridCell.Tab.0.left" timestamp="1591530101530">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="181" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1591521695505" />
+    <state width="1493" height="181" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1591530101530" />
     <state width="1493" height="181" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591437536753" />
-    <state width="1493" height="181" key="GridCell.Tab.0.right" timestamp="1591521695505">
+    <state width="1493" height="181" key="GridCell.Tab.0.right" timestamp="1591530101530">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="181" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1591521695505" />
+    <state width="1493" height="181" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1591530101530" />
     <state width="1493" height="181" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591437536753" />
     <state x="277" y="55" key="SettingsEditor" timestamp="1591430703236">
       <screen x="0" y="0" width="1536" height="824" />
