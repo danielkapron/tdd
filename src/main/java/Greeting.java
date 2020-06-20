@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class Greeting {
 
     // Napisz metodę greet(name), która wstawi wartość name w powitanie. Na przykład, kiedy name to „Jan” to metoda powinna zwrócić tekst „Witaj, Jan.”
@@ -17,34 +20,42 @@ public class Greeting {
     // np.: dla name = [„Jan”, „Karolina, Wojciech”] metoda ma zwrócić „Witaj, Jan, Karolina i Wojciech
 
 
+
+
     public String greet(String... names) {
-        for (int i = 0; i < names.length; i++) {
-            if (names[i] == null || names[i].equals("")) {
-                names[i] = "przyjacielu";
+
+        List<String> formattedNames = new ArrayList<>();
+
+        for(String name : names){
+            if(name != null) {
+                String[] stringArray = name.split(",");
+
+                for (String stringArrayItem : stringArray) {
+                    formattedNames.add(stringArrayItem.trim()); // trim czysci biale znaki na poczatku i koncu
+                }
+            } else {
+                formattedNames.add(name);
             }
         }
-        if (names.length == 1) {
-            return String.format("Witaj, %s.", names[0]);
+
+        for (int i = 0; i < formattedNames.size(); i++) {
+            if (formattedNames.get(i) == null || formattedNames.get(i).equals("")) {
+                formattedNames.set(i, "przyjacielu");
+            }
+        }
+        if (formattedNames.size() == 1) {
+            return String.format("Witaj, %s.", formattedNames.toArray());
         } else {
             String stringFormat = "Witaj, %s";
-            for(int i =1; i < names.length; i++ ){
-                if(i == names.length -1){
-                    stringFormat += " i %s.";
-                    break;
-                }
+
+            for (int i = 1; i < formattedNames.size() - 1; i++) {
                 stringFormat += ", %s";
             }
-            return String.format(stringFormat, names);
+
+            stringFormat += " i %s.";
+
+            return String.format(stringFormat, formattedNames.toArray());
         }
-
-
-
-//        else if(names.length == 4 ) {
-//            return String.format("Witaj, %s, %s, %s i %s.", names[0], names[1], names[2], names[3]);
-//        }
-//            else {
-//            return String.format("Witaj, %s i %s.", names[0], names[1])
-//          }
 
     }
 }
